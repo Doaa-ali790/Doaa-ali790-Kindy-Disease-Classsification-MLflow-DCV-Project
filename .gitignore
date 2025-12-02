@@ -1,4 +1,4 @@
-# Folders not needed on GitHub
+# Ignore heavy folders and files
 .dvc/
 .dvcignore
 .git/
@@ -6,10 +6,12 @@
 artifacts/
 logs/
 model/
-research/
 inputImage/
+research/
+mlruns/
+saved_model/
 
-# ML / Large files
+# Large ML files
 *.h5
 *.pt
 *.pth
